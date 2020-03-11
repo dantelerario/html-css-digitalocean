@@ -1,0 +1,84 @@
+/* GENERAL SETTING */
+* {
+  box-sizing: border-box;
+}
+.container-fluid {
+  padding: 0;
+}
+
+/* UTILITIES */
+.relative {
+  position: relative;
+}
+
+/* HEADER */
+/* NAV */
+
+#nav img {
+  width: 170px;
+  height: 30px;
+  margin: 25px 15px;
+  text-align: left;
+}
+
+/* MEDIA SETTINGS */
+#icon {
+  display: none;
+}
+
+.nav-ul {
+  display: none;
+}
+
+/* HAMBURGER 1199 */
+@media screen and (max-width:1199px) {
+  #icon {
+    display: inline-block;
+    position: absolute;
+    top: 17px;
+    right: 30px;
+    color: #3A8AFF;
+  }
+  #nav img {
+    width: 170px;
+    height: 30px;
+    margin: 10px 50px;
+    text-align: left;
+  }
+}
+
+/* NAV MENU 1200 */
+@media screen and (min-width:1200px) {
+  .nav-ul {
+    display: inline-block;
+    color: #031B4E;
+    margin-top: 13px;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .nav-ul a {
+    color: #031B4E;
+  }
+  .nav-ul ul {
+    margin-top: 7px;
+    width: auto;
+  }
+  .btn-default {
+    display: inline-block;
+    color: #3A8AFF;
+    border: 1px solid #3A8AFF;
+    border-radius: 5px;
+    padding: 5px 15px;
+  }
+  .btn-default:hover {
+    display: inline-block;
+    color: #FFF;
+    background: #3A8AFF;
+    opacity: 0.6;
+    border: 1px solid #3A8AFF;
+    border-radius: 5px;
+    padding: 5px 15px;
+  }
+
+}

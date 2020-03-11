@@ -139,10 +139,12 @@
 
 #login-window {
   margin: 80px 10px;
+  padding: 20px 10px;
   background: #fff;
   border-radius: 5px;
 }
 
+/* FORM */
 #login-window h3 {
   font-size: 180%;
   font-weight: 700;
@@ -150,9 +152,77 @@
 
 .btn-hero {
   margin: 5px auto;
-  padding: 5px 120px;
+  padding: 5px 0;
+  width: 90%;
 }
 
 .btn-info {
   background: #3A8AFF;
+}
+
+.btn-white {
+  position: relative;
+  background: #f0f0f0;
+  box-shadow: 1px 1px 1px #c9c9c9;
+  color: #000;
+}
+
+.btn-white:hover {
+  background: #5cb85c;
+}
+
+
+.btn-white:after {
+  content: url(../img/google-icon.png);
+  position: absolute;
+  top: 120px;
+  left: 180px;
+  zoom: 4%;
+}
+
+#login-window button {
+  width: 100%;
+}
+
+#login-window input::placeholder {
+  font-weight: 700;
+}
+
+#login-window span {
+  color: #031B4E;
+  font-weight: 500;
+}
+
+#login-window mark {
+  background: transparent;
+  color: #3A8AFF;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+#login-window mark:hover {
+  background: #0275d8;
+  cursor: pointer;
+}
+
+/* MAIN */
+/* LOGOS */
+
+#logos {
+  padding: 50px auto;
+}
+
+.logos {
+  width: calc((100% / 6) - 5px);
+  display: inline-block;
+}
+
+.logos img {
+  width: 75%;
+}
+
+#span {
+  color: #031B4E;
+  font-weight: 700;
+  padding: 50px 0;
 }

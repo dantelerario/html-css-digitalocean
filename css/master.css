@@ -15,8 +15,20 @@
   display: inline-block;
 }
 
+.block {
+  display: block;
+}
+
 .fixed {
   display: fixed;
+}
+
+.dark-blue-text {
+  color: #031B4E;
+}
+
+.light-blue-text {
+  color: #3A8AFF;
 }
 
 /* HEADER */
@@ -123,4 +135,24 @@
   font-size: 160%;
   font-weight: 500;
   margin-bottom: 80px;
+}
+
+#login-window {
+  margin: 80px 10px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+#login-window h3 {
+  font-size: 180%;
+  font-weight: 700;
+}
+
+.btn-hero {
+  margin: 5px auto;
+  padding: 5px 120px;
+}
+
+.btn-info {
+  background: #3A8AFF;
 }

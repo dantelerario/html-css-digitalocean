@@ -15,37 +15,43 @@
   <header>
     <section id="header">
       <!-- NAV FIXED -->
-      <nav>
-        <div id="nav" class="container-fluid col-sm-12 col-md-12 col-lg-12">
-          <div id="navelements" class="container-fluid relative">
-            <div class="col-lg-2 col-lg-offset-2">
+      <nav class="fixed">
+        <div id="nav" class="container">
+          <div id="navelements" class="row relative">
+            <div class="col-lg-3">
               <img src="img/do-logo.png" alt="Digital Ocean Logo">
             </div>
-            <div class="col-lg-3 nav-ul">  <!--show at >1200 -->
+            <div class="col-lg-5 nav-ul">  <!--show at >1200 -->
               <ul class="list-inline">
-                <li><a class="a-nav" href="#">Products</a></li>
-                <li><a class="a-nav" href="#">Products</a></li>
-                <li><a class="a-nav" href="#">Products</a></li>
-                <li><a class="a-nav" href="#">Products</a></li>
+                <li><a class="a-nav down-arrow" href="#">Products</a></li>
+                <li><a class="a-nav" href="#">Customers</a></li>
+                <li><a class="a-nav down-arrow" href="#">Community</a></li>
+                <li><a class="a-nav" href="#">Pricing</a></li>
               </ul>
             </div>
-            <div class="col-lg-2 nav-ul">  <!--show at >1200 -->
-              <ul class="list-inline">
+            <div class="col-lg-4 nav-ul">  <!--show at >1200 -->
+              <ul class="list-inline in-block">
                 <li><a class="a-nav" href="#">Docs</a></li>
-                <li><a class="a-nav" href="#">Products</a></li>
-                <li><a class="a-nav" href="#">Products</a></li>
+                <li><a class="a-nav down-arrow" href="#">Support</a></li>
+                <li><a class="a-nav" href="#">Login</a></li>
               </ul>
+                <button class="btn-default">Sign Up</button>
             </div>
-            <div class="col-lg-1 nav-ul">  <!--show at >1200 -->
-              <button class="btn-default">Sign Up</button>
-            </div>
-            <div id="icon" class=""><i class="fas fa-bars"></i></div> <!-- shows at 1200< -->
-
+            <div id="icon" class=""><i class="fas fa-bars"></i>
+            </div> <!-- shows at 1200< -->
           </div>
         </div>
       </nav>
       <!-- HERO -->
-      <div id="hero" class="">
+      <div id="hero" class="container-fluid">
+        <div class="container">
+          <div class="col-lg-7">
+            <h1>The simplest cloud platform for developers & teams</h1>
+            <p>Deploy, manage and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one  virtual machine or ten thounsands.</p>
+          </div>
+          <div class="col-lg-5"></div>
+        </div>
+
 
       </div>
     </section>

@@ -40,10 +40,25 @@ img {
   font-weight: 700;
 }
 
+.h4-main {
+  font-size: 150%;
+  font-weight: 700;
+}
+
 .p-large-main {
   font-size: 150%;
   font-weight: 700;
   color: rgba(3,27,78, 0.6);
+}
+
+.p-medium-main {
+  font-size: 120%;
+  font-weight: 500;
+  color: rgba(3,27,78, 0.6);
+}
+
+.pad-right {
+  padding-right: 35px;
 }
 
 /* HEADER */
@@ -280,7 +295,7 @@ img {
 }
 
 #deploy-content {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .borderleft {
@@ -292,4 +307,43 @@ img {
   color: rgba(3,27,78, 0.6);
   font-size: 150%;
   font-weight: 500;
+}
+
+.deploy-content {
+  width: calc(99.1% / 2);
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* DESIGN DIV */
+
+#design {
+  padding: 50px 0 30px;
+  background: #F3F5F9;
+}
+
+#design img {
+  width: 55%;
+  padding: 50px 0;
+}
+
+.before-d i {
+  position: absolute;
+  top: 10px;
+  left: 180px;
+  font-size: 380%;
+  color: #031B4E;
+}
+
+.after-d i {
+  position: absolute;
+  top: 10px;
+  right: 180px;
+  font-size: 380%;
+  color: #031B4E;
+}
+
+#design i:hover {
+  color: #3A8AFF;
+  cursor: pointer;
 }

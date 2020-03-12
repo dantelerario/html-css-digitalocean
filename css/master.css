@@ -35,6 +35,10 @@ img {
   color: #3A8AFF;
 }
 
+.bold {
+  font-weight: 700;
+}
+
 .h3-main {
   font-size: 250%;
   font-weight: 700;
@@ -198,7 +202,7 @@ img {
   background-repeat: no-repeat;
   background-position: 10px;
   background-size: 18px;
-  border: 1px solid #fff;
+  border: 1px solid #f0f0f0;
 }
 
 #btn-google:hover {
@@ -345,5 +349,19 @@ img {
 
 #design i:hover {
   color: #3A8AFF;
+  cursor: pointer;
+}
+
+.circle {
+  display: inline-block;
+  margin: 15px 5px 0 5px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #3A8AFF;
+  border-radius: 10px;
+}
+
+.circle:hover {
+  background: #3A8AFF;
   cursor: pointer;
 }

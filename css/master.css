@@ -160,25 +160,41 @@
   background: #3A8AFF;
 }
 
-.btn-white {
+/* .btn-white {
   position: relative;
   background: #f0f0f0;
   box-shadow: 1px 1px 1px #c9c9c9;
   color: #000;
+  background-image: url('../img/google-icon.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+  background-size: 200px;
+} */
+
+#btn-google {
+  background: #f0f0f0;
+  box-shadow: 1px 1px 1px #c9c9c9;
+  color: #000;
+  background-image: url('../img/google-icon.png');
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 18px;
+  border: 1px solid #fff;
 }
 
-.btn-white:hover {
-  background: #5cb85c;
+#btn-google:hover {
+  border: 1px solid #3A8AFF;
 }
 
-
-.btn-white:after {
+/* /* DEBUG:  */
+/* .btn-white:after {
   content: url(../img/google-icon.png);
   position: absolute;
   top: 120px;
   left: 180px;
   zoom: 4%;
-}
+} */
 
 #login-window button {
   width: 100%;

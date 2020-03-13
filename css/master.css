@@ -331,6 +331,39 @@ img {
   padding: 50px 0;
 }
 
+@media screen and (min-width:769px){
+  .slider::after {
+    content:'\f105';
+    position: absolute;
+    top: 190px;
+    right: 170px;
+    font-family: "Font Awesome 5 Free";
+    font-size: 380%;
+    font-weight: 700;
+    color: #031B4E;
+  }
+
+  .slider:hover::after {
+    color: #3A8AFF;
+  }
+
+  .slider::before {
+    content:'\f104';
+    position: absolute;
+    top: 190px;
+    left: 170px;
+    font-family: "Font Awesome 5 Free";
+    font-size: 380%;
+    font-weight: 700;
+    color: #031B4E;
+  }
+
+  .slider:hover::before {
+    color: #3A8AFF;
+  }
+}
+
+
 .before-d i {
   position: absolute;
   top: 10px;

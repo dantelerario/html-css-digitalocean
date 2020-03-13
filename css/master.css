@@ -558,3 +558,38 @@ img {
   background: #031B4E;
   color: hsla(0,0%,100%, .5);
 }
+
+#footercontent {
+  padding: 45px 0;
+}
+
+#footer-left i {
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.span-footer {
+  margin: 20px 0 15px;
+}
+
+
+#lists-footer ul {
+  vertical-align: top;
+  padding-left: 30px;
+}
+
+#lists-footer li {
+  padding: 5px;
+}
+
+.top-list {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.normal-list a {
+  color: hsla(0,0%,100%, .5);
+  font-size: 16px;
+  font-weight: 500;
+}

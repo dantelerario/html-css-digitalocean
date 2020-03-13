@@ -462,8 +462,30 @@ img {
 /* SERVICES DIV */
 
 #service {
-  height: 400px;
+  padding: 40px 0;
+  color: #fff;
   background: #002CA7;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #fff;
+}
+
+.rows div {
+  padding: 5px 0;
+
+}
+
+.s-1 {
+  width: 20%;
+}
+
+.s-2 {
+  width: 62%;
+}
+
+.s-3 {
+  width: 16%;
 }
 
 /* DEVTEAMS DIV */

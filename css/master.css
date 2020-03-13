@@ -65,6 +65,30 @@ img {
   padding-right: 35px;
 }
 
+.pad-tb {
+  padding: 50px 0 10px;
+}
+
+.div-a {
+  position: relative;
+  padding: 30px 0 0;
+  font-weight: 700;
+  color: #3A8AFF;
+}
+
+.div-a a {
+  padding: 50px 0;
+}
+
+.div-a a::after {
+  content:'\f105';
+  position: absolute;
+  top: 31px;
+  right: 105px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+}
+
 /* HEADER */
 /* NAV */
 #nav {
@@ -132,7 +156,6 @@ img {
     border: 1px solid #3A8AFF;
     border-radius: 5px;
     padding: 5px 15px;
-    /* margin-left: -100px; */
   }
   .btn-default:hover {
     display: inline-block;
@@ -265,31 +288,31 @@ img {
   }
 }
 
-#span {
-  color: rgba(3,27,78, 0.6);
-  font-weight: 700;
-  font-size: 120%;
-  margin: 50px 0 30px;
-}
-
-#logos-a {
+.div-logos-a {
   position: relative;
   padding: 30px 0 0;
   font-weight: 700;
   color: #3A8AFF;
 }
 
-#logos-a a {
+.div-logos-a a {
   padding: 50px 0;
 }
 
-#logos-a a::after {
+.div-logos-a a::after {
   content:'\f105';
   position: absolute;
   top: 31px;
   right: 485px;
   font-family: "Font Awesome 5 Free";
   font-weight: 700;
+}
+
+#span {
+  color: rgba(3,27,78, 0.6);
+  font-weight: 700;
+  font-size: 120%;
+  margin: 50px 0 30px;
 }
 
 /* DEPLOY */
@@ -363,7 +386,6 @@ img {
   }
 }
 
-
 .before-d i {
   position: absolute;
   top: 10px;
@@ -397,4 +419,84 @@ img {
 .circle:hover {
   background: #3A8AFF;
   cursor: pointer;
+}
+
+/* FEATURES DIV */
+
+#features {
+  margin: 70px 0;
+}
+
+#features h3 {
+  padding: 20px 0;
+}
+
+#features img {
+  padding: 15px 0;
+}
+
+.div-a {
+  position: relative;
+  padding: 30px 0 0;
+  font-weight: 700;
+  color: #3A8AFF;
+}
+
+.div-a a {
+  padding: 50px 0;
+}
+
+.div-a a::after {
+  content:'\f105';
+  position: absolute;
+  top: 31px;
+  right: 230px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+}
+
+/* SERVICES DIV */
+
+#service {
+  height: 400px;
+  background: #002CA7;
+}
+
+/* DEVTEAMS DIV */
+
+#devteams {
+  padding: 50px 0 30px;
+  background: #F3F5F9;
+}
+
+#devteams img {
+  width: 55%;
+  padding: 50px 0 10px;
+}
+
+/* START NOW */
+
+#startnow {
+  background-image: url("../img/bg-banner-home.jpg");
+  background-position: -150px bottom;
+  color: #fff;
+  min-height: 250px;
+}
+
+.btn-startnow {
+  display: inline-block;
+  color: #3A8AFF;
+  background: #fff;
+  border: 1px solid #3A8AFF;
+  border-radius: 5px;
+  padding: 5px 15px;
+  font-size: 150%;
+  padding: 10px 30px;
+}
+
+/* FOOTER */
+
+#footer {
+  background: #031B4E;
+  color: hsla(0,0%,100%, .5);
 }

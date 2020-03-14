@@ -84,15 +84,6 @@ img {
   padding: 50px 0;
 }
 
-.div-a a::after {
-  content:'\f105';
-  position: absolute;
-  top: 31px;
-  right: 105px;
-  font-family: "Font Awesome 5 Free";
-  font-weight: 700;
-}
-
 /* HEADER */
 /* NAV */
 #nav {
@@ -169,6 +160,7 @@ img {
     border-radius: 5px;
     padding: 5px 15px;
   }
+
   .down-arrow::after {
     content:'\f107';
     position: absolute;
@@ -303,15 +295,6 @@ img {
   padding: 50px 0;
 }
 
-.div-logos-a a::after {
-  content:'\f105';
-  position: absolute;
-  top: 31px;
-  right: 485px;
-  font-family: "Font Awesome 5 Free";
-  font-weight: 700;
-}
-
 #span {
   color: rgba(3,27,78, 0.6);
   font-weight: 700;
@@ -358,7 +341,7 @@ img {
   padding: 50px 0;
 }
 
-@media screen and (min-width:769px){
+@media screen and (min-width:769px) {
   .slider::after {
     content:'\f105';
     position: absolute;
@@ -450,15 +433,6 @@ img {
   padding: 50px 0;
 }
 
-.div-a a::after {
-  content:'\f105';
-  position: absolute;
-  top: 31px;
-  right: 325px;
-  font-family: "Font Awesome 5 Free";
-  font-weight: 700;
-}
-
 /* SERVICES DIV */
 
 #service {
@@ -486,6 +460,12 @@ img {
 
 .s-3 {
   width: 16%;
+}
+
+.s-3 a {
+  color: #89baff;
+  font-weight: 700;
+  font-size: 90%;
 }
 
 /* DEVTEAMS DIV */
@@ -545,14 +525,6 @@ img {
   color: #3A8AFF;
 }
 
-.a-devteams a::after {
-  content:'\f105';
-  position: absolute;
-  top: 31px;
-  right: 255px;
-  font-family: "Font Awesome 5 Free";
-  font-weight: 700;
-}
 
 /* START NOW */
 
@@ -568,7 +540,7 @@ img {
   color: #3A8AFF;
   background: #fff;
   border: 1px solid #3A8AFF;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 5px 15px;
   font-size: 150%;
   padding: 10px 30px;
@@ -614,4 +586,87 @@ img {
   color: hsla(0,0%,100%, .5);
   font-size: 16px;
   font-weight: 500;
+}
+
+/* FIXED SHARD */
+
+#shark {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.shark {
+  position: relative;
+  bottom: 50px;
+  right: 90px;
+  background: #002CA7;
+  border-radius: 15px;
+  width: 100px;
+  height: 90px;
+}
+
+.shark img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 110%;
+}
+
+.red-c {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+  width: 35px;
+  height: 35px;
+  background: red;
+  border-radius: 35px;
+  border: 5px solid #fff;
+  color: #FFF;
+  font-size: 18px;
+  text-align: center;
+  line-height: -15px;
+}
+
+.shark-box {
+  display: none;
+  position: relative;
+  top: 20px;
+  left: -335px;
+  background: #fff;
+  border: 0.5px solid #000;
+  border-radius: 10px;
+  width: 300px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.shark:hover .shark-box {
+  display: block;
+  z-index: 100;
+}
+
+.shark-box:after, .shark-box:before {
+	left: 99.9%;
+	top: 68%;
+  border: 0.5px solid #000;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.shark-box:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-left-color: #fff;
+	border-width: 7px;
+	margin-top: -7px;
+}
+.shark-box:before {
+	border-color: rgba(255, 255, 255, 0);
+	border-left-color: #000;
+	border-width: 8.5px;
+	margin-top: -8.5px;
 }

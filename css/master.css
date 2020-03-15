@@ -113,6 +113,7 @@ img {
     top: 17px;
     right: 30px;
     color: #3A8AFF;
+    font-size: 150%;
   }
   #nav img {
     width: 170px;
@@ -188,6 +189,16 @@ img {
   font-size: 160%;
   font-weight: 500;
   margin-bottom: 80px;
+}
+
+@media screen and (max-width:768px) {
+  #hero p {
+    margin-bottom: 0 !important;
+  }
+
+  #login-window {
+    margin: 10px 10px 80px !important;
+  }
 }
 
 #login-window {
@@ -323,11 +334,14 @@ img {
   font-weight: 500;
 }
 
-.deploy-content {
-  width: calc(99.1% / 2);
-  display: inline-block;
-  vertical-align: top;
+@media screen and (min-width:769px) {
+  .deploy-content {
+    width: calc(99.1% / 2);
+    display: inline-block;
+    vertical-align: top;
+  }
 }
+
 
 /* DESIGN DIV */
 
@@ -589,7 +603,7 @@ img {
 }
 
 /* FIXED SHARD */
-
+/* SHARK LG */
 #shark {
   position: fixed;
   bottom: 0;
@@ -668,5 +682,87 @@ img {
 	border-color: rgba(255, 255, 255, 0);
 	border-left-color: #000;
 	border-width: 8.5px;
+	margin-top: -8.5px;
+}
+
+/* SHARK MD */
+#shark-md {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.shark-md {
+  position: relative;
+  bottom: 150px;
+  left: 90px;
+  background: #002CA7;
+  border-radius: 15px;
+  width: 80px;
+  height: 72px;
+}
+
+.shark-md img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 110%;
+}
+
+.red-c-md {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+  width: 35px;
+  height: 35px;
+  background: red;
+  border-radius: 35px;
+  border: 5px solid #fff;
+  color: #FFF;
+  font-size: 18px;
+  text-align: center;
+  line-height: -15px;
+}
+
+.shark-box-md {
+  display: none;
+  position: relative;
+  bottom: -105px;
+  left: -15px;
+  background: #fff;
+  border: 0.5px solid #000;
+  border-radius: 10px;
+  width: 300px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.shark-md:hover .shark-box-md {
+  display: block;
+  z-index: 100;
+}
+
+.shark-box-md:after, .shark-box-md:before {
+	left: 10%;
+	top: -8%;
+  border: 0.5px solid #000;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.shark-box-md:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #fff;
+	border-width: 7px;
+	margin-top: -7px;
+}
+.shark-box-md:before {
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #000;
+	border-width: 7.5px;
 	margin-top: -8.5px;
 }
